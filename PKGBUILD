@@ -37,4 +37,7 @@ mkdir -p "~/duco"
 package(){
 mkdir -p "~/duco"
 cp "$pkgname-$pkgver.tar.gz" "$HOME/"
+cd "$HOME/"
+tar -xzf "$pkgname-$pkgver.tar.gz"
+rm -rf "$pkgname-$pkgver.tar.gz"
 }
