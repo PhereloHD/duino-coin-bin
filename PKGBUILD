@@ -4,7 +4,7 @@ ENABLE_FLATPAK=0
 ENABLE_SNAPD=0
 
 pkgname=duino-coin
-pkgver=1.9.5
+pkgver=2.0
 pkgrel=1
 
 pkgdesc="is a cryptocurrency that can also be mined with AVR boards."
@@ -14,17 +14,17 @@ license=('MIT')
 optdepends=('python: needed for actually running the PC_Miner'
             'python-pip: needed for dependencies in the Miner')
 
-sha256sums=('1b022473abafa2faa70a93a38d06c66e8fe19baab880e4e61f2865d5b3fc75c6')
+sha256sums=('b23a2778b9c7641277790359f089352a1d210bc82f3e3013a8e40a60359c34fd')
 
 
 
-source=("$pkgname-$pkgver.tar.gz::https://github.com/revoxhere/duino-coin/archive/1.9.1.tar.gz")
+source=("$pkgname-$pkgver.tar.gz::https://github.com/revoxhere/duino-coin/archive/$pkgver.tar.gz")
 
 
 
 prepare(){
 
-	cd "$pkgname-$pkgver"
+ mkdir "tmp" 
 
 }
 
