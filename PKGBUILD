@@ -4,7 +4,7 @@ ENABLE_FLATPAK=0
 ENABLE_SNAPD=0
 
 pkgname=duino-coin
-pkgver=2.0
+pkgver=2.1
 pkgrel=1
 
 pkgdesc="is a cryptocurrency that can also be mined with AVR boards."
@@ -14,7 +14,7 @@ license=('MIT')
 optdepends=('python: needed for actually running the PC_Miner'
             'python-pip: needed for dependencies in the Miner')
 
-sha256sums=('b23a2778b9c7641277790359f089352a1d210bc82f3e3013a8e40a60359c34fd')
+sha256sums=('891968c2661a30d047dbe92aef58378d706ca3eceb15b00a689c9fbaa05a9c72')
 
 
 
