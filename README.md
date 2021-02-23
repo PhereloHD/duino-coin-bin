@@ -12,7 +12,7 @@ To get it faster, i will help y'all here:
 
 2. You have to clone the yay repo.
 
-```sudo git clone https://aur.archlinux.org/yay-git.git```
+```git clone https://aur.archlinux.org/yay-git.git```
 
 3. Get into the Folder
 
